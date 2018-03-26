@@ -4,3 +4,4 @@ RUN apk --update add --no-cache git
 RUN pip install awsebcli --upgrade
 
 WORKDIR /app
+CMD ash
